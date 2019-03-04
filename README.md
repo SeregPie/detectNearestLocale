@@ -4,7 +4,6 @@
 
 Detects the nearest preferred locale.
 
-
 | argument | description |
 | ---: | :--- |
 | `supportedLocales` | An array of supported locales. |
@@ -17,7 +16,7 @@ Returns the first matching supported locale.
 ### npm
 
 ```shell
-npm install detect-nearest-locale
+npm i detect-nearest-locale
 ```
 
 ### ES module
@@ -35,7 +34,7 @@ import detectNearestLocale from 'detect-nearest-locale';
 ## usage
 
 ```javascript
-let locale = detectNearestLocale(['ru', 'en-US'], ['en-GB', 'de']);
+let locale = detectNearestLocale(['ru', 'en-US'], ['de', 'en-GB']);
 // => 'en-US'
 ```
 
