@@ -6,8 +6,8 @@ Detects the nearest preferred locale.
 
 | argument | description |
 | ---: | :--- |
-| `supportedLocales` | An array of supported locales. |
-| `preferredLocales` | An array of preferred locales. |
+| `supportedLocales` | An array of the supported locales. |
+| `preferredLocales` | An array of the preferred locales. |
 
 Returns the first matching supported locale.
 
